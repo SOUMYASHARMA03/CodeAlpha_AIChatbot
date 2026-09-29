@@ -1,0 +1,356 @@
+[
+  {
+    "intent": "greeting",
+    "category": "General",
+    "priority": 1,
+    "patterns": [
+      "hello",
+      "hi",
+      "hey",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "is anyone there",
+      "hi there",
+      "hey bot",
+      "greetings",
+      "howdy"
+    ],
+    "responses": [
+      "Hello! Welcome to CloudBot. I'm your AI-powered website assistant. How can I assist you with our cloud solutions today?",
+      "Hi there! Great to see you. How can I assist you with our services, pricing, or technical support?",
+      "Greetings! I'm CloudBot. Ask me anything about our cloud platforms, consulting, or setup."
+    ],
+    "quickReplies": [
+      "What services do you offer?",
+      "Tell me about pricing plans",
+      "How do I get started?",
+      "What are your working hours?"
+    ]
+  },
+  {
+    "intent": "services",
+    "category": "Services",
+    "priority": 2,
+    "patterns": [
+      "what services do you offer",
+      "what do you do",
+      "services list",
+      "tell me about your services",
+      "cloud solutions",
+      "what kind of cloud services do you provide",
+      "do you offer devops",
+      "do you manage kubernetes",
+      "can you help with cloud migration",
+      "what are your core capabilities",
+      "can you manage our aws architecture",
+      "manage cloud infrastructure",
+      "cloud architecture consulting"
+    ],
+    "responses": [
+      "We provide end-to-end cloud computing services including:\n• **Cloud Migration & Architecture** (AWS, Azure, GCP)\n• **DevOps & CI/CD Automation** (Docker, Kubernetes, Terraform)\n• **Cloud Security & Compliance** (AES-256 encryption, SOC 2, ISO 27001)\n• **Serverless & Microservices Modernization**\n• **24/7 Managed Cloud Infrastructure & Monitoring**."
+    ],
+    "quickReplies": [
+      "Tell me about pricing plans",
+      "How does cloud migration work?",
+      "Book a consultation",
+      "Do you provide 24/7 support?"
+    ]
+  },
+  {
+    "intent": "cloud_migration",
+    "category": "Services",
+    "priority": 2,
+    "patterns": [
+      "how does cloud migration work",
+      "cloud migration process",
+      "can you migrate my on-premise servers",
+      "aws or azure migration assistance",
+      "move to cloud",
+      "database migration services"
+    ],
+    "responses": [
+      "Our 4-phase Cloud Migration framework ensures zero-downtime transition:\n1. **Discovery & Assessment**: Architecture audit and TCO analysis.\n2. **Strategy & Planning**: Rehost, Replatform, or Refactor roadmap.\n3. **Piloting & Execution**: Automated data sync and staged workload cutover.\n4. **Optimization & Validation**: Performance benchmarking and cost controls."
+    ],
+    "quickReplies": [
+      "What is your pricing?",
+      "Talk to a cloud architect",
+      "What about data security?"
+    ]
+  },
+  {
+    "intent": "pricing",
+    "category": "Billing",
+    "priority": 2,
+    "patterns": [
+      "how much does it cost",
+      "what is the price",
+      "pricing details",
+      "tell me about pricing plans",
+      "what are your rates",
+      "how much do you charge",
+      "is there a free trial",
+      "subscription plans",
+      "what are your subscription pricing tiers",
+      "pricing tiers",
+      "cost of services"
+    ],
+    "responses": [
+      "We offer transparent, flexible tiers designed for every business size:\n• **Starter Tier ($199/mo)**: Ideal for small apps, monitoring, and weekly backups.\n• **Professional Tier ($599/mo)**: High-availability clusters, CI/CD pipeline, and 99.9% uptime SLA.\n• **Enterprise Tier (Custom)**: Dedicated cloud architects, bespoke hybrid cloud infrastructure, and 24/7 phone escalation.\n\nAll plans include a **14-day zero-risk free trial**!"
+    ],
+    "quickReplies": [
+      "How do I sign up for free trial?",
+      "What is your refund policy?",
+      "Contact enterprise sales"
+    ]
+  },
+  {
+    "intent": "working_hours",
+    "category": "Company",
+    "priority": 1,
+    "patterns": [
+      "what are your working hours",
+      "when are you open",
+      "what time do you close",
+      "business hours",
+      "operating hours",
+      "when can i reach you",
+      "are you open on weekends"
+    ],
+    "responses": [
+      "Our standard business and sales offices are open **Monday through Friday, 9:00 AM – 6:00 PM EST**.\n\nHowever, our **Tier-1 Technical Support and Automated Monitoring Systems operate 24/7/365** for all active clients."
+    ],
+    "quickReplies": [
+      "How can I contact support?",
+      "What is your emergency phone?",
+      "Where are you located?"
+    ]
+  },
+  {
+    "intent": "contact",
+    "category": "Company",
+    "priority": 2,
+    "patterns": [
+      "how do i contact you",
+      "contact support",
+      "support email",
+      "phone number",
+      "how can i reach you",
+      "sales contact",
+      "where can i reach your sales team",
+      "reach sales team",
+      "contact sales",
+      "customer service phone",
+      "where can i send email"
+    ],
+    "responses": [
+      "You can reach our team via multiple channels:\n• **Email**: support@cloudbot.codealpha.tech\n• **Phone**: +1 (800) 555-CLOUD (Mon-Fri 9am-6pm EST)\n• **Emergency Hotline**: +1 (888) 999-HELP (24/7)\n• **Headquarters**: 450 Cloud Vista Boulevard, Suite 1200, San Francisco, CA\n\nYou can also fill out the interactive contact form on our website!"
+    ],
+    "quickReplies": [
+      "What are your working hours?",
+      "Speak to a live human agent",
+      "What services do you offer?"
+    ]
+  },
+  {
+    "intent": "location",
+    "category": "Company",
+    "priority": 1,
+    "patterns": [
+      "where are you located",
+      "where is your office",
+      "company address",
+      "headquarters location",
+      "what country are you in",
+      "where is your company based"
+    ],
+    "responses": [
+      "Our global headquarters is located at **450 Cloud Vista Boulevard, Suite 1200, San Francisco, CA, USA**.\n\nWe also maintain regional presence nodes in London, Singapore, Frankfurt, and Mumbai to service our global infrastructure clients."
+    ],
+    "quickReplies": [
+      "How do I contact you?",
+      "What are your working hours?",
+      "Explore cloud services"
+    ]
+  },
+  {
+    "intent": "support_sla",
+    "category": "Support",
+    "priority": 2,
+    "patterns": [
+      "what is your sla",
+      "uptime guarantee",
+      "technical support details",
+      "how fast do you respond to tickets",
+      "incident response time",
+      "do you have 24/7 support"
+    ],
+    "responses": [
+      "Our Service Level Agreement (SLA) guarantees **99.95% uptime** across managed cloud services.\n• **Critical Severity (P1)**: < 15-minute response time with immediate engineering bridge.\n• **High Severity (P2)**: < 1-hour response time.\n• **General Queries (P3)**: < 4-hour response time."
+    ],
+    "quickReplies": [
+      "How to open a ticket?",
+      "Talk to human representative",
+      "What security measures do you have?"
+    ]
+  },
+  {
+    "intent": "refunds_cancellation",
+    "category": "Billing",
+    "priority": 2,
+    "patterns": [
+      "what is your refund policy",
+      "can i get a refund",
+      "money back guarantee",
+      "how to cancel subscription",
+      "cancel my plan",
+      "termination policy"
+    ],
+    "responses": [
+      "We offer a **30-day money-back guarantee** on all subscription plans if you are not completely satisfied. Subscriptions can be canceled at any time from your client dashboard with zero cancellation penalties or lock-in contracts."
+    ],
+    "quickReplies": [
+      "Tell me about pricing plans",
+      "Contact billing support",
+      "How do I reset my password?"
+    ]
+  },
+  {
+    "intent": "getting_started",
+    "category": "Onboarding",
+    "priority": 2,
+    "patterns": [
+      "how do i get started",
+      "getting started guide",
+      "how to sign up",
+      "start free trial",
+      "create an account",
+      "how does onboarding work",
+      "new user setup"
+    ],
+    "responses": [
+      "Getting started takes less than 3 minutes:\n1. Click **'Get Started'** at the top right of this page.\n2. Choose your preferred plan or select the 14-day Free Trial.\n3. Connect your cloud provider (AWS / Azure / GCP) via our secure IAM role wizard.\n4. Our automated health-check dashboard will immediately map your infrastructure!"
+    ],
+    "quickReplies": [
+      "Tell me about pricing plans",
+      "Is my cloud credentials safe?",
+      "Schedule an onboarding demo"
+    ]
+  },
+  {
+    "intent": "security",
+    "category": "Security",
+    "priority": 2,
+    "patterns": [
+      "is my data secure",
+      "what security measures do you take",
+      "encryption standards",
+      "are you soc2 compliant",
+      "data privacy policy",
+      "how do you protect my data",
+      "compliance certificates"
+    ],
+    "responses": [
+      "Security is our highest priority:\n• **Data Encryption**: AES-256 encryption at rest and TLS 1.3 in transit.\n• **Compliance**: Certified SOC 2 Type II, ISO/IEC 27001, and GDPR compliant.\n• **Access Control**: Principle of least privilege with mandatory Zero-Trust MFA.\n• **Redundancy**: Geographically isolated hot-backups with automated disaster recovery."
+    ],
+    "quickReplies": [
+      "What services do you offer?",
+      "Tell me about SLA",
+      "Contact security officer"
+    ]
+  },
+  {
+    "intent": "account_help",
+    "category": "Account",
+    "priority": 1,
+    "patterns": [
+      "i forgot my password",
+      "reset password",
+      "cant login",
+      "account locked",
+      "change email address",
+      "how do i reset my account credentials",
+      "reset account credentials",
+      "credentials help",
+      "two factor authentication issue",
+      "update payment method"
+    ],
+    "responses": [
+      "For account assistance:\n• **Password Reset**: Visit the Login page and click 'Forgot Password' to receive a secure one-time reset link.\n• **2FA Recovery**: Use your offline backup codes generated during setup.\n• **Billing & Email**: Manage your profile under 'Settings > Security' in the client console."
+    ],
+    "quickReplies": [
+      "Contact support team",
+      "How do I get started?",
+      "Speak to live agent"
+    ]
+  },
+  {
+    "intent": "human_handoff",
+    "category": "Support",
+    "priority": 3,
+    "patterns": [
+      "speak to a human",
+      "talk to a representative",
+      "connect to live agent",
+      "i want to talk to a person",
+      "customer service agent",
+      "real person please",
+      "escalate to human"
+    ],
+    "responses": [
+      "I am connecting you with our Live Support Team. A customer success representative will join this session shortly.\n\nIn the meantime, you can also reach us immediately by phone at **+1 (800) 555-CLOUD** or email **support@cloudbot.codealpha.tech**."
+    ],
+    "quickReplies": [
+      "Leave a callback message",
+      "Check working hours",
+      "Browse common FAQs"
+    ]
+  },
+  {
+    "intent": "bot_identity",
+    "category": "General",
+    "priority": 3,
+    "patterns": [
+      "who are you",
+      "who are you and what do you do",
+      "what are you",
+      "are you a robot",
+      "are you an ai",
+      "what is your name",
+      "tell me about cloudbot"
+    ],
+    "responses": [
+      "I am **CloudBot**, an AI-powered website assistant created for CodeAlpha Cloud Solutions. I am trained with retrieval-based pattern matching and NLP to give you fast, reliable, 24/7 commercial support."
+    ],
+    "quickReplies": [
+      "What services do you offer?",
+      "How does the AI matching work?",
+      "What are your prices?"
+    ]
+  },
+  {
+    "intent": "gratitude_farewell",
+    "category": "General",
+    "priority": 1,
+    "patterns": [
+      "thank you",
+      "thanks a lot",
+      "appreciate it",
+      "bye",
+      "goodbye",
+      "see you later",
+      "have a nice day",
+      "thats all thanks"
+    ],
+    "responses": [
+      "You're very welcome! If you have any more questions, CloudBot is always here 24/7. Have a wonderful day!",
+      "Glad I could help! Feel free to reach out anytime. Have a productive day ahead!",
+      "Goodbye! Thank you for visiting our cloud portal. Don't hesitate to ping me if you need anything else."
+    ],
+    "quickReplies": [
+      "Start a new inquiry",
+      "Explore cloud services",
+      "Visit contact page"
+    ]
+  }
+]

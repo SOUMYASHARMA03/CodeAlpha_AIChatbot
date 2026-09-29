@@ -1,0 +1,18 @@
+{
+  "name": "codealpha-aichatbot",
+  "version": "1.0.0",
+  "description": "CloudBot — AI-Powered Website Assistant for CodeAlpha Cloud Computing Task 4",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": ["codealpha", "chatbot", "ai", "react", "express", "cloud-computing"],
+  "author": "Chahat Kumari <chahat343435@gmail.com> (https://github.com/chahat1409)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chahat1409/CodeAlpha_AIChatbot.git"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "pricing": ["cost", "price", "charge", "fee", "rates", "quote", "expense", "tier", "plan", "subscription"],
+  "services": ["solutions", "offerings", "products", "features", "capabilities", "technologies"],
+  "contact": ["reach", "call", "phone", "email", "talk", "connect", "message", "touch"],
+  "hours": ["timings", "schedule", "time", "open", "close", "operating"],
+  "location": ["address", "office", "hq", "headquarters", "situated", "based", "place"],
+  "help": ["support", "assist", "assistance", "guidance", "trouble", "issue"],
+  "start": ["begin", "signup", "register", "join", "onboard", "create"],
+  "security": ["safety", "encryption", "privacy", "protection", "compliance", "safe"],
+  "refund": ["reimbursement", "cancel", "cancellation", "moneyback", "terminate"]
+}
