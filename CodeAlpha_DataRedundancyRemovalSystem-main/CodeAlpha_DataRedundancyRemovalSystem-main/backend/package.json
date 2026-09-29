@@ -1,0 +1,41 @@
+{
+  "name": "cloudguard-backend",
+  "version": "1.0.0",
+  "description": "CloudGuard - Data Redundancy Removal System Backend API (CodeAlpha Task 1)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node scripts/seed.js",
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "keywords": [
+    "cloudguard",
+    "codealpha",
+    "deduplication",
+    "data-redundancy",
+    "mongodb-atlas",
+    "cloud-computing"
+  ],
+  "author": "Chahat Kumari <chahat343435@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^10.1.3",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 30000
+  }
+}

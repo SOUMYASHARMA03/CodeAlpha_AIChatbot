@@ -1,0 +1,23 @@
+{
+  "name": "codealpha-data-redundancy-removal-system",
+  "version": "1.0.0",
+  "description": "CloudGuard - Data Redundancy Removal System (CodeAlpha Cloud Computing Task 1)",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [
+    "cloudguard",
+    "codealpha",
+    "cloud-computing",
+    "data-redundancy",
+    "deduplication",
+    "mongodb-atlas"
+  ],
+  "author": "Chahat Kumari <chahat343435@gmail.com>",
+  "license": "MIT"
+}
