@@ -145,7 +145,7 @@ Specialization: Cloud Computing
 ### 🔗 Connect
 
 * **GitHub:** [SOUMYASHARMA03](https://github.com/SOUMYASHARMA03)
-* **LinkedIn:** Add your LinkedIn profile here
+* **LinkedIn:** [SOUMYASHARMA03](https://www.linkedin.com/in/soumyasharma0304/)
 
 ## 📜 Internship
 
